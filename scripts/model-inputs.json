@@ -1,0 +1,30 @@
+{
+  "repository": "https://github.com/LluisV/Z-Anatomy",
+  "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+  "files": [
+    {
+      "name": "SkeletalSystem100",
+      "path": "Resources/Models/FBX/SkeletalSystem100.fbx",
+      "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/SkeletalSystem100.fbx",
+      "gitBlob": "7c62e45211bf3992bb7239170343e06e2b073865",
+      "sha256": "294a649765cd060a62a4095da52b9c8ef2d97769aa447e196448aa5f7d596dea",
+      "bytes": 41339660
+    },
+    {
+      "name": "NervousSystem100",
+      "path": "Resources/Models/FBX/NervousSystem100.fbx",
+      "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/NervousSystem100.fbx",
+      "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+      "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+      "bytes": 53887724
+    },
+    {
+      "name": "Regions of human body100",
+      "path": "Resources/Models/FBX/Regions of human body100.fbx",
+      "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/Regions%20of%20human%20body100.fbx",
+      "gitBlob": "99d81944658b3407f62d3428d40a89646d9c6369",
+      "sha256": "9d8da01d4719f9a61ee6ccfcaef85f788c4c67e9bcd74f5725c6946ab8b44199",
+      "bytes": 4433260
+    }
+  ]
+}

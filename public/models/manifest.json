@@ -1,0 +1,336 @@
+{
+  "dataset": "Z-Anatomy",
+  "license": "CC-BY-SA-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "basedOn": {
+    "dataset": "BodyParts3D / Anatomography",
+    "license": "CC-BY-SA-2.1-JP",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+  },
+  "credit": "Z-Anatomy (CC BY-SA 4.0), based in part on BodyParts3D, © The Database Center for Life Science (CC BY-SA 2.1 Japan). Adapted by OrganUI.",
+  "retrieved": "2026-10-16",
+  "source": {
+    "repository": "https://github.com/LluisV/Z-Anatomy",
+    "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+    "files": [
+      {
+        "name": "SkeletalSystem100",
+        "path": "Resources/Models/FBX/SkeletalSystem100.fbx",
+        "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/SkeletalSystem100.fbx",
+        "gitBlob": "7c62e45211bf3992bb7239170343e06e2b073865",
+        "sha256": "294a649765cd060a62a4095da52b9c8ef2d97769aa447e196448aa5f7d596dea",
+        "bytes": 41339660
+      },
+      {
+        "name": "NervousSystem100",
+        "path": "Resources/Models/FBX/NervousSystem100.fbx",
+        "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/NervousSystem100.fbx",
+        "gitBlob": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+        "sha256": "3ea1aad64956cad27348a27b8fb50494b7cc307c6bc77bee0810ec2a67dff2b1",
+        "bytes": 53887724
+      },
+      {
+        "name": "Regions of human body100",
+        "path": "Resources/Models/FBX/Regions of human body100.fbx",
+        "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/Regions%20of%20human%20body100.fbx",
+        "gitBlob": "99d81944658b3407f62d3428d40a89646d9c6369",
+        "sha256": "9d8da01d4719f9a61ee6ccfcaef85f788c4c67e9bcd74f5725c6946ab8b44199",
+        "bytes": 4433260
+      }
+    ]
+  },
+  "transform": {
+    "sourceBoundsCm": {
+      "min": [
+        -9.336999893188477,
+        155.08592224121094,
+        -2.160400152206421
+      ],
+      "max": [
+        -0.7171225547790527,
+        160.6641845703125,
+        1.7095547914505005
+      ]
+    },
+    "centerCm": [
+      -5.027061223983765,
+      157.87505340576172,
+      -0.2254226803779602
+    ],
+    "scale": 0.5,
+    "axes": "[x, y, z]"
+  },
+  "runtime": {
+    "file": "ear.glb",
+    "bytes": 1010340,
+    "sha256": "39437aeadce1c82d44efc7df1dbaedb872b2f7dd62d66537fc4d4178df0cede1"
+  },
+  "structures": [
+    {
+      "id": "helix",
+      "objects": [
+        {
+          "file": "Regions of human body100",
+          "object": "Helixr",
+          "vertices": 289,
+          "triangles": 473
+        },
+        {
+          "file": "Regions of human body100",
+          "object": "Apex_of_auricler",
+          "vertices": 27,
+          "triangles": 36
+        },
+        {
+          "file": "Regions of human body100",
+          "object": "Auricular_tubercler",
+          "vertices": 20,
+          "triangles": 26
+        }
+      ]
+    },
+    {
+      "id": "antihelix",
+      "objects": [
+        {
+          "file": "Regions of human body100",
+          "object": "Antihelixr",
+          "vertices": 64,
+          "triangles": 88
+        },
+        {
+          "file": "Regions of human body100",
+          "object": "Crura_of_antihelixr",
+          "vertices": 69,
+          "triangles": 92
+        }
+      ]
+    },
+    {
+      "id": "scapha-and-fossa",
+      "objects": [
+        {
+          "file": "Regions of human body100",
+          "object": "Scaphar",
+          "vertices": 47,
+          "triangles": 69
+        },
+        {
+          "file": "Regions of human body100",
+          "object": "Triangular_fossar",
+          "vertices": 41,
+          "triangles": 58
+        }
+      ]
+    },
+    {
+      "id": "concha",
+      "objects": [
+        {
+          "file": "Regions of human body100",
+          "object": "Concha_of_auricler",
+          "vertices": 51,
+          "triangles": 64
+        },
+        {
+          "file": "Regions of human body100",
+          "object": "Cymba_conchaer",
+          "vertices": 59,
+          "triangles": 89
+        },
+        {
+          "file": "Regions of human body100",
+          "object": "Cavity_of_conchar",
+          "vertices": 122,
+          "triangles": 215
+        }
+      ]
+    },
+    {
+      "id": "tragus",
+      "objects": [
+        {
+          "file": "Regions of human body100",
+          "object": "Tragusr",
+          "vertices": 50,
+          "triangles": 76
+        },
+        {
+          "file": "Regions of human body100",
+          "object": "Antitragusr",
+          "vertices": 29,
+          "triangles": 39
+        },
+        {
+          "file": "Regions of human body100",
+          "object": "Intertragic_incisurer",
+          "vertices": 46,
+          "triangles": 71
+        },
+        {
+          "file": "Regions of human body100",
+          "object": "Anterior_notch_of_auricler",
+          "vertices": 38,
+          "triangles": 49
+        }
+      ]
+    },
+    {
+      "id": "lobule",
+      "objects": [
+        {
+          "file": "Regions of human body100",
+          "object": "Lobule_of_auricler",
+          "vertices": 128,
+          "triangles": 219
+        }
+      ]
+    },
+    {
+      "id": "back-of-auricle",
+      "objects": [
+        {
+          "file": "Regions of human body100",
+          "object": "Eminentia_conchaer",
+          "vertices": 44,
+          "triangles": 61
+        },
+        {
+          "file": "Regions of human body100",
+          "object": "Eminentia_scaphaer",
+          "vertices": 72,
+          "triangles": 103
+        },
+        {
+          "file": "Regions of human body100",
+          "object": "Eminentia_fossae_triangularisr",
+          "vertices": 39,
+          "triangles": 51
+        },
+        {
+          "file": "Regions of human body100",
+          "object": "Fossa_antihelicar",
+          "vertices": 42,
+          "triangles": 61
+        },
+        {
+          "file": "Regions of human body100",
+          "object": "Posterior_auricular_groover",
+          "vertices": 94,
+          "triangles": 184
+        }
+      ]
+    },
+    {
+      "id": "tympanic-membrane",
+      "objects": [
+        {
+          "file": "NervousSystem100",
+          "object": "Tympanic_membraner",
+          "vertices": 788,
+          "triangles": 1572
+        }
+      ]
+    },
+    {
+      "id": "malleus",
+      "objects": [
+        {
+          "file": "SkeletalSystem100",
+          "object": "Malleusr",
+          "vertices": 1993,
+          "triangles": 3982
+        }
+      ]
+    },
+    {
+      "id": "incus",
+      "objects": [
+        {
+          "file": "SkeletalSystem100",
+          "object": "Incusr",
+          "vertices": 1268,
+          "triangles": 2532
+        }
+      ]
+    },
+    {
+      "id": "stapes",
+      "objects": [
+        {
+          "file": "SkeletalSystem100",
+          "object": "Stapesr",
+          "vertices": 2171,
+          "triangles": 4342
+        }
+      ]
+    },
+    {
+      "id": "auditory-tube",
+      "objects": [
+        {
+          "file": "NervousSystem100",
+          "object": "Auditory_tuber",
+          "vertices": 922,
+          "triangles": 1840
+        }
+      ]
+    },
+    {
+      "id": "chorda-tympani",
+      "objects": [
+        {
+          "file": "NervousSystem100",
+          "object": "Chorda_tympanir",
+          "vertices": 876,
+          "triangles": 1748
+        }
+      ]
+    },
+    {
+      "id": "cochlea",
+      "objects": [
+        {
+          "file": "NervousSystem100",
+          "object": "Cochlear",
+          "vertices": 3110,
+          "triangles": 6167
+        }
+      ]
+    },
+    {
+      "id": "vestibule",
+      "objects": [
+        {
+          "file": "NervousSystem100",
+          "object": "Vestibuler",
+          "vertices": 4316,
+          "triangles": 8580
+        }
+      ]
+    },
+    {
+      "id": "vestibulocochlear-nerve",
+      "objects": [
+        {
+          "file": "NervousSystem100",
+          "object": "Vestibulocochlear_nerve_(VIII)r",
+          "vertices": 888,
+          "triangles": 1768
+        },
+        {
+          "file": "NervousSystem100",
+          "object": "Cochlear_nerve",
+          "vertices": 881,
+          "triangles": 1758
+        },
+        {
+          "file": "NervousSystem100",
+          "object": "Vestibular_nerver",
+          "vertices": 2352,
+          "triangles": 4688
+        }
+      ]
+    }
+  ]
+}
